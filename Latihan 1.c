@@ -7,19 +7,15 @@ int main() {
     printf("Masukkan umur: ");
     scanf("%d", &umur);
 
-    printf("Masukkan jumlah saudara: ");
+    printf("Masukkan jumlah saudara : ");
     scanf("%d", &jml_sdr);
 
-    printf("Masukkan anak ke: ");
+    printf("Anak keberapa : ");
     scanf("%d", &anakke);   
 
     jml_anak = jml_sdr + 1;
 
-    printf("**************HASIL******************\n");
-    printf("* UMUR          : %d                 *\n", umur);
-    printf("* JUMLAH SAUDARA: %d                 *\n", jml_sdr);
-    printf("* ANAK KE       : %d                 *\n", anakke);
-    printf("* JUMLAH ANAK   : %d                 *\n", jml_anak);
+    printf("Saya berumur %d tahun, anak ke-%d dari %d bersaudara.\n", umur, anakke, jml_anak);
 
     printf("*************************************\n");
     printf("* NAMA  : Raja Jacques Sianipar     *\n");

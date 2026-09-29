@@ -18,13 +18,15 @@ int main() {
         keliling_segitiga = 3 * sisi;
         luas_arsiaran = luas_persegi - luas_segitiga;
 
-    printf("Luas persegi adalah : %d\n", luas_persegi);
-    printf("Keliling persegi adalah : %d\n", keliling_persegi);
+    printf("**********HASIL PERHITUNGAN**********\n");
+    printf(" Luas persegi adalah       : %d     *\n", luas_persegi);
+    printf(" Keliling persegi adalah   : %d     *\n", keliling_persegi);
 
-    printf("Luas Segitiga adalah : %d\n", luas_segitiga);
-    printf("Keliling Segitiga adalah : %d\n", keliling_segitiga);
+    printf("* Luas Segitiga adalah     : %d     *\n", luas_segitiga);
+    printf("* Keliling Segitiga adalah : %d     *\n", keliling_segitiga);
 
-    printf("Luas Arsiaran adalah : %d\n", luas_arsiaran);
+    printf("*************************************\n");
+    printf("* Luas Arsiaran adalah     : %d     *\n", luas_arsiaran);
 
     printf("*************************************\n");
     printf("* NAMA  : Raja Jacques Sianipar     *\n");

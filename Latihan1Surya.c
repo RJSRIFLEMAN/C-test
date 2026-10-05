@@ -14,15 +14,12 @@ int main() {
     scanf("%d",&anakke);
 
     jml_anak=jml_sdr+1;
-
-    printf("Umur : %d\n", umur);
-    printf("Jumlah saudara : %d\n", jml_sdr);
-    printf("anak ke : %d\n", anakke);
-    printf("Jumlah anak : %d\n", jml_anak);
+    
+    printf("Saya berumur %d tahun, anak ke %d dari %d bersaudara.\n",umur,anakke,jml_anak);
 
     printf("NAMA : I GUSTI SURYA WANGSA JUNYARTHA.\n");
     printf("NIM : 101032600091\n");
-    printf ("KELAS : TK-50-05\n") ;
+    printf("KELAS : TK-50-05\n") ;
 
     return 0;
 }

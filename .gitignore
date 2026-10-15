@@ -1,0 +1,14 @@
+# Build artifacts
+*.exe
+*.obj
+*.ilk
+*.pdb
+*.o
+*.dll
+
+# IDE files
+.vscode/
+*.pdb
+
+# JDK / runtime folders
+oracleJdk-27/
